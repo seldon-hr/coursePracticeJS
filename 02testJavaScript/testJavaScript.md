@@ -57,4 +57,25 @@
         While, cuando por lo menos una vez se debe hacer el código,
         for of, más para recorre arrays.
     
+    12. ¿Qué es un ciclo infinito y por qué es un problema?
+        Este es un condicional que nunca se va a cumplir, de manera que, obtenemoes una acción que se repitira por la eternidad, o después de una cantidad ingente de tiemp. Es ideal no tener estos ciclos, ya que, saturan memoria.
+
+    13. ¿Puedo mezclar ciclos y condicionales?
+        Sí, se pueden combinar ambos tipos de estructuras.
+
+    14. Code
+
+### Listas
+
+    15. ¿Qué es un array?
+        Un conjunto de datos, o estructura de datos.
+    
+    16. ¿Qué es un objeto?
+        Es ua colección de propiedades, y una propiedade es un valor de key; valores.
+
+    17. Uasr arrays u objetos
+        Arrays: conjunto de datos.
+        Objetcts: conjunto de propiedades, así como de constructores.
+    
+    
     
