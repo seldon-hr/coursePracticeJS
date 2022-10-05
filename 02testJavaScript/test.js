@@ -110,9 +110,15 @@ const person = {
 function printAllProperties(personaje) {
     //Object.keys to access to propeties of and objects
     // cuz each properties is an a key.
-    Object.keys(personaje).forEach((item) => {
+    Object.values(personaje).forEach((item) => {
         console.log(item);
     })
 }
 
 printAllProperties(person);
+
+/* 
+    With Object.keys you access to properties names
+    for isntnace to
+    output Array ["name", "nickname", "fruit"]
+*/
