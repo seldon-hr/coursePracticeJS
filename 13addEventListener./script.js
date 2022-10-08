@@ -5,12 +5,14 @@ const form = document.querySelector('#form')
 const btn = document.querySelector('#btnCalcular');
 const btnClean = document.querySelector('#btnClean');
 const pResult = document.querySelector('#result');
+const title = document.querySelector('#body');
 
 //*Use 'addEventListener'
 // element.addEventListner('evento', code JS)
 
 form.addEventListener('click', sumar);
 btnClean.addEventListener('click', clean);
+title.addEventListener('click', changeBackground);
 //                            ⬆️ Solo se pone la función sin parentésis 
 /* A diferencia de cuando lo llamamos con HTML, ya que, onclick es específico lo que hay que llamar
     sin embargo, addEventListner no funciona así, primero identifica el elemento, luego que evento
@@ -35,4 +37,10 @@ function clean() {
     input1.value = "";
     input2.value = "";
     pResult.innerText = "";
+}
+
+
+function changeBackground() {
+    title.classList.add('.changeColor')
+    console.log('change');
 }
